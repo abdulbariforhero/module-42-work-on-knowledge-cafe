@@ -1,62 +1,58 @@
 [
     {
         "id": "1",
-        "cover-img": "https://i.ibb.co/MCN8tgh/1.jpg",
+        "cover": "https://i.ibb.co/MCN8tgh/1.jpg",
         "title": "Exploring the World: Alice Smith's Adventures",
         "author": "Alice Smith",
-        "author-img": "https://i.ibb.co/8Pxp7jr/boy1.png",
-        "post-date": "10 September 2023",
+        "author_img": "https://i.ibb.co/8Pxp7jr/boy1.png",
+        "post_date": "10 September 2023",
         "readtime": 15,
         "hashtags": [
             "#travel",
             "#adventure"
         ],
-        "mark": 4.2,
-        "bookmark": true
+        "mark": 4.2
     },
     {
         "id": "2",
-        "cover-img": "https://i.ibb.co/FWRwN9N/2.png",
+        "cover": "https://i.ibb.co/FWRwN9N/2.png",
         "title": "Culinary Delights with Bob Johnson",
         "author": "Bob Johnson",
-        "author-img": "https://i.ibb.co/YQPzKkb/boy2.jpg",
-        "post-date": "11 September 2023",
+        "author_img": "https://i.ibb.co/YQPzKkb/boy2.jpg",
+        "post_date": "11 September 2023",
         "readtime": 8,
         "hashtags": [
             "#foodie",
             "#recipes"
         ],
-        "mark": 4.8,
-        "bookmark": false
+        "mark": 4.8
     },
     {
         "id": "3",
-        "cover-img": "https://i.ibb.co/j69vtZ8/3.png",
+        "cover": "https://i.ibb.co/j69vtZ8/3.png",
         "title": "Artistic Inspirations by David Wilson",
         "author": "David Wilson",
-        "author-img": "https://i.ibb.co/m8t3zPL/girl1.jpg",
-        "post-date": "13 September 2023",
+        "author_img": "https://i.ibb.co/m8t3zPL/girl1.jpg",
+        "post_date": "13 September 2023",
         "readtime": 20,
         "hashtags": [
             "#art",
             "#creativity"
         ],
-        "mark": 4.5,
-        "bookmark": false
+        "mark": 4.5
     },
     {
         "id": "4",
-        "cover-img": "https://i.ibb.co/3pmDtpL/4.jpg",
+        "cover": "https://i.ibb.co/3pmDtpL/4.jpg",
         "title": "Grace Miller's Fashion and Style Chronicles",
         "author": "Grace Miller",
-        "author-img": "https://i.ibb.co/8cPy8Ph/girl2.jpg",
-        "post-date": "14 September 2023",
+        "author_img": "https://i.ibb.co/8cPy8Ph/girl2.jpg",
+        "post_date": "14 September 2023",
         "readtime": 5,
         "hashtags": [
             "#fashion",
             "#style"
         ],
-        "mark": 4.0,
-        "bookmark": true
+        "mark": 4.0
     }
 ]
