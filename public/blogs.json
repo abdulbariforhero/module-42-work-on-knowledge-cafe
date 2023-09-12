@@ -6,10 +6,10 @@
         "author": "Alice Smith",
         "author_img": "https://i.ibb.co/8Pxp7jr/boy1.png",
         "post_date": "10 September 2023",
-        "readtime": 15,
+        "read_time": 15,
         "hashtags": [
-            "#travel",
-            "#adventure"
+            "#ReactJS",
+            "#JavaScript"
         ],
         "mark": 4.2
     },
@@ -20,10 +20,10 @@
         "author": "Bob Johnson",
         "author_img": "https://i.ibb.co/YQPzKkb/boy2.jpg",
         "post_date": "11 September 2023",
-        "readtime": 8,
+        "read_time": 8,
         "hashtags": [
-            "#foodie",
-            "#recipes"
+            "#JavaScript",
+            "#FrontEnd"
         ],
         "mark": 4.8
     },
@@ -34,10 +34,10 @@
         "author": "David Wilson",
         "author_img": "https://i.ibb.co/m8t3zPL/girl1.jpg",
         "post_date": "13 September 2023",
-        "readtime": 20,
+        "read_time": 20,
         "hashtags": [
-            "#art",
-            "#creativity"
+            "#ReactNative",
+            "#NodeJS"
         ],
         "mark": 4.5
     },
@@ -48,10 +48,10 @@
         "author": "Grace Miller",
         "author_img": "https://i.ibb.co/8cPy8Ph/girl2.jpg",
         "post_date": "14 September 2023",
-        "readtime": 5,
+        "read_time": 5,
         "hashtags": [
-            "#fashion",
-            "#style"
+            "#JavaScript",
+            "#ReactDeveloper"
         ],
         "mark": 4.0
     }
