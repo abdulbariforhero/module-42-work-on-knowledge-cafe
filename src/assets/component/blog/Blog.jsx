@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
+import {FaBookmark } from 'react-icons/fa';
 
-const Blog = ({ blog }) => {
-    console.log(blog);
-    const { title, cover, author_img, author,post_date,readtime, } = blog;
+const Blog = ({ blog, handleAddToBookmark }) => {
+    const { title, cover, author_img, author,post_date,readtime, hashtags } = blog;
 
     return (
-        <div className='lg:w-[800px]'>
-            <div className='ml-32'>
-                <figure className='' ><img src={cover} alt="" /></figure>
-                <div className='mt-8 flex justify-between '>
+        <div className='mt-16'>
+            <div className=''>
+                <figure className='w-full' ><img src={cover} alt={`Cover picture of the title ${title}`} /></figure>
+                <div className='mt-3 flex justify-between items-center'>
                     <div className='flex'>
                         <figure className='w-14 rounded-full mr-5'><img src={author_img} alt="" /></figure>
                         <div>
@@ -16,18 +16,26 @@ const Blog = ({ blog }) => {
                         <p>{post_date} </p>
                         </div>
                     </div>
-                    <div>
-                        <p>{readtime} min read</p>
+                    <div className='flex justify-start'>
+                        <span>{readtime} min read</span>
+                        <button onClick={() => handleAddToBookmark()} className='ml-2 text-red-600'><FaBookmark /></button>
                     </div>
                 </div>
-                <h2 className='text-4xl' >{title}</h2>
+                <h2 className='text-4xl leading-10 my-5' >{title}</h2>
+                <div className='flex gap-4'>
+                {
+                    hashtags.map(hashtag => <p>{hashtag}</p>)
+                }
+                </div>
+                <button className='underline text-sky-500'>Mark as read</button>
             </div>
         </div>
     );
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToBookmark: PropTypes.func.isRequired,
 }
 
 export default Blog;
